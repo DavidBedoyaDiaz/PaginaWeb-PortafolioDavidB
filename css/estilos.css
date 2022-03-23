@@ -1,0 +1,226 @@
+body {
+  background-image: url(/img/Fondo.jpg);
+  background-size: cover;
+  width: 1340px;
+  height: 924px;
+}
+
+.Encabezado {
+  position: absolute;
+  width: 1001px;
+  height: 172.04px;
+  left: 47px;
+  top: 50px;
+  background: rgba(137, 226, 135, 0.83);
+  border: 2px solid #000000;
+  filter: blur(4px);
+  border-radius: 40px;
+}
+
+h1 {
+  position: absolute;
+  width: 542px;
+  height: 38.88px;
+  left: 276px;
+  top: 40px;
+  font-family: Nova Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+}
+
+.Eslogan {
+  position: absolute;
+  width: 351px;
+  height: 50.54px;
+  left: 642px;
+  top: 130px;
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.foto {
+  position: absolute;
+  width: 215px;
+  height: 208.98px;
+  left: 1144px;
+  top: 42px;
+  border-radius: 100%;
+}
+
+.Taller {
+  position: absolute;
+  width: 401px;
+  height: 420px;
+  left: 47px;
+  top: 308px;
+  background: rgba(137, 226, 135, 0.83);
+  border: 2px solid #000000;
+  filter: blur(4px);
+  border-radius: 40px;
+}
+
+.TiTalleres {
+  position: absolute;
+  width: 237px;
+  height: 39px;
+  left: 163px;
+  top: 300px;
+  font-family: Nova Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+}
+
+.listaTaller {
+  position: absolute;
+  width: 351px;
+  height: 230px;
+  left: 75px;
+  top: 404px;
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.Consulta {
+    position: absolute;
+    width: 401px;
+    height: 420px;
+    left: 550px;
+    top: 308px;
+    background: rgba(137, 226, 135, 0.83);
+    border: 2px solid #000000;
+    filter: blur(4px);
+    border-radius: 40px;
+  }
+  
+  .TiConsulta {
+    position: absolute;
+    width: 237px;
+    height: 39px;
+    left: 640px;
+    top: 300px;
+    font-family: Nova Round;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+  }
+  
+  .listaConsultas {
+    position: absolute;
+    width: 351px;
+    height: 230px;
+    left: 590px;
+    top: 404px;
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    color: #000000;
+  }
+
+  .Reto {
+    position: absolute;
+    width: 401px;
+    height: 420px;
+    left: 1050px;
+    top: 308px;
+    background: rgba(137, 226, 135, 0.83);
+    border: 2px solid #000000;
+    filter: blur(4px);
+    border-radius: 40px;
+  }
+  
+  .TiReto {
+    position: absolute;
+    width: 237px;
+    height: 39px;
+    left: 1200px;
+    top: 300px;
+    font-family: Nova Round;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+  }
+  
+  .listaReto {
+    position: absolute;
+    width: 351px;
+    height: 230px;
+    left: 1100px;
+    top: 404px;
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    color: #000000;
+  }
+
+  .PiePagina{
+    position: absolute;
+    width: 1410px;
+    height: 130px;
+    left: 47px;
+    top: 778px;
+    background: rgba(137, 226, 135, 0.83);
+    border: 2px solid #000000;
+    filter: blur(4px);
+    border-radius: 40px;
+  }
+
+  .Creditos{
+    position: absolute;
+    width: 880.35px;
+    height: 37px;
+    left: 10px;
+    top: 800px;
+    font-family: Nova Round;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .git{
+    position: absolute;
+    left: 1200px;
+    top: 800px;
+    border-radius: 20px;
+  }
+
+  .neocities{
+    position: absolute;
+    left: 1300px;
+    top: 800px;
+    border-radius: 20px;
+  }
+
+a:link, a:visited{
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover{
+  text-decoration: underline;
+  color:  green; 
+}
