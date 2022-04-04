@@ -487,3 +487,62 @@ a:active{
   line-height: 42px;
   color: #000748;
 }
+
+.TitDom{
+  position: absolute;
+  height: 63px;
+  left: 220px;
+  top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  color: #000748;
+}
+
+.Pdom{
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  text-align: justify;
+  top: 80px;
+  width: 800px;
+}
+
+.DOM{
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  left: 830px;
+  top: 70px;
+  border-radius: 45px;
+}
+
+.TitLand{
+  position: absolute;
+  height: 63px;
+  left: 220px;
+  top: 280px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  color: #000748;
+}
+
+.PLand{
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 16px;
+  text-align: justify;
+  top: 350px;
+  width: 800px;
+}
