@@ -1,0 +1,236 @@
+.PP {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: -1px;
+  }
+  
+  
+  .encabezado {
+    position: absolute;
+    background-color: #ff0000;
+    width: 100%;
+    height: 20%;
+    top: 0%;
+    left: 0%;
+  }
+  
+  .title {
+    position: absolute;
+    left: 265px;
+    top: 2px;
+    margin: 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: rgba(0, 0, 0,);
+    mix-blend-mode: normal;
+    -webkit-text-stroke: 1px #566803;
+  }
+  
+  .icono {
+    position: absolute;
+    top: 8%;
+    left: 1%;
+  }
+  
+  .Snack {
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    -webkit-text-stroke: 0.5px #ff0000;
+    backdrop-filter: blur(4px);
+  }
+  
+  
+  a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    mix-blend-mode: normal;
+    -webkit-text-stroke: 1px #000000;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ff0000;
+  }
+  
+  .Logo {
+    position: absolute;
+    width: 268px;
+    height: 192px;
+    left: 600px;
+    top: 60%;
+  }
+  
+ 
+  .TextEntradas {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    -webkit-text-stroke: 0.5px #000000;
+    display: flex;
+    justify-content: center;
+    margin: 10px 5px 0px 5px;
+  }
+
+  
+  .fondoblack {
+    background-color: #000000;
+  }
+  
+  .footer {
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    height: 20%;
+    top: 90%;
+    left: 30%;
+  }
+  
+  .header {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    left: -3px;
+  }
+  
+  .DivGrande {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+  }
+
+  
+  .DivAmarillo {
+    display: flex;
+    background: rgba(252, 252, 252, 0.62);
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+  
+  .conf1 {
+    width: 100%;
+    height: 90%;
+    top: 10%;
+  }
+  .DivFoto {
+    width: 85%;
+    height: 50%;
+    margin-top: 5%;
+  }
+  
+  .DivNegro {
+    background-color: #000000;
+    width: 100%;
+    height: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .descripciones {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 29px;
+    color: rgba(59, 151, 147, 0.7);
+    mix-blend-mode: normal;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .comprar {
+    width: 460px;
+    background: #ffffff;
+    border-radius: 40px;
+    display: flex;
+    position: absolute;
+    top: 1850px;
+    left: 40%;
+    justify-content: center;
+  }
+
+  .iconoCarrito{
+    width:70px ;
+    height:70px;
+    margin-right: 30px;
+  }
+
+  .Agregar{
+    width: 460px;
+    background: #ffffff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btnAgregar{
+    background-color: #000000;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Agregar2{
+    width: 80%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .IconoAgregar{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .LinkAgregar{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 39px;
+    color: #000000;
+    mix-blend-mode: normal;
+    -webkit-text-stroke: 1px #000000;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }

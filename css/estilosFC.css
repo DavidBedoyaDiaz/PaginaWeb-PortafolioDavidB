@@ -1,0 +1,254 @@
+body {
+  background-color: black;
+}
+
+.encabezado{
+  width: 100%;
+  height: 8%;
+
+}
+
+p{
+  font-family: "ABeeZee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Titulo {
+  position: absolute;
+  width: 515px;
+  height: 160px;
+  left: 442px;
+  margin: 0px;
+  top: -10px;
+  font-family: "Lakki Reddy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 166px;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #f38686;
+}
+
+.carta {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: -25px;
+  top: 294px;
+}
+
+.carta section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transition: 1s;
+  padding: 10px;
+}
+
+.carta .frente {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 41px;
+  top: 0px;
+  background: #2aaf97;
+  border-radius: 40px;
+  transform: perspective(500px) rotateY(0deg);
+  text-align: center;
+}
+
+.frente p {
+  padding: 10px;
+  color: white;
+}
+
+.carta .atras {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 41px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 40px;
+  transform: perspective(500px) rotateY(180deg);
+  text-align: center;
+  display: block;
+}
+
+.carta:hover .frente {
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.carta:hover .atras {
+  transform: perspective(500px) rotateY(360deg);
+}
+
+.text {
+  position: absolute;
+  width: 208px;
+  height: 192px;
+  left: 30px;
+  top: 90px;
+  font-family: "ABeeZee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.carta2 {
+  position: absolute;
+  width: 238px;
+  height: 376px;
+  left: 280px;
+  top: 0px;
+}
+
+.carta3 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 570px;
+  top: 0px;
+}
+.carta4 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 854px;
+  top: 0px;
+}
+
+.carta5 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 1140px;
+  top: 0px;
+}
+
+.carta6 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 0px;
+  top: 470px;
+}
+
+.carta7 {
+  position: absolute;
+  width: 238px;
+  height: 376px;
+  left: 280px;
+  top: 470px;
+}
+
+.carta8 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 570px;
+  top: 470px;
+}
+.carta9 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 854px;
+  top: 470px;
+}
+
+.carta10 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 1140px;
+  top: 470px;
+}
+
+.carta11 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 0px;
+  top: 940px;
+}
+
+.carta12 {
+  position: absolute;
+  width: 238px;
+  height: 376px;
+  left: 280px;
+  top: 940px;
+}
+
+.carta13 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 570px;
+  top: 940px;
+}
+.carta14 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 854px;
+  top: 940px;
+}
+
+.carta15 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 1140px;
+  top: 940px;
+}
+
+.carta16 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 0px;
+  top: 1420px;
+}
+
+.carta17 {
+  position: absolute;
+  width: 238px;
+  height: 376px;
+  left: 280px;
+  top: 1420px;
+}
+
+.carta18 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 570px;
+  top: 1420px;
+}
+.carta19 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 854px;
+  top: 1420px;
+}
+
+.carta20 {
+  position: absolute;
+  width: 235px;
+  height: 376px;
+  left: 1140px;
+  top: 1420px;
+}
