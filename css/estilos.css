@@ -1,28 +1,66 @@
 body {
   background-image: url(/img/Fondo.jpg);
   background-size: cover;
-  width: 1340px;
-  height: 924px;
+  width: 100%;
+  height: 100%;
 }
 
-.Encabezado {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "ENCABEZADO  FOTO";
+  width: 100%;
+  top: 3%;
   position: absolute;
-  width: 1001px;
-  height: 172.04px;
-  left: 47px;
-  top: 50px;
+  left: 3%;
+}
+.ENCABEZADO {
+  grid-area: ENCABEZADO;
   background: rgba(137, 226, 135, 0.83);
   border: 2px solid #000000;
-  filter: blur(4px);
   border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.FOTO {
+  grid-area: FOTO;
+  grid-column-start: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotico {
+  display: flex;
+  border-radius: 100%;
+}
+
+.fotico:hover {
+  box-shadow: 0px 0px 15px 15px #4eec1e;
+  -webkit-box-shadow: 0px 0px 15px 15px #36ec1e;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
 
 h1 {
-  position: absolute;
-  width: 542px;
-  height: 38.88px;
-  left: 276px;
-  top: 40px;
   font-family: Nova Round;
   font-style: normal;
   font-weight: normal;
@@ -32,195 +70,135 @@ h1 {
 }
 
 .Eslogan {
-  position: absolute;
-  width: 351px;
-  height: 50.54px;
-  left: 642px;
-  top: 130px;
   font-family: PT Mono;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  margin: 0px;
 }
 
-.foto {
+.DivGrande {
   position: absolute;
-  width: 215px;
-  height: 208.98px;
-  left: 1144px;
-  top: 42px;
-  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  left: 3%;
 }
 
-.Taller {
-  position: absolute;
-  width: 401px;
-  height: 420px;
-  left: 47px;
-  top: 308px;
+.DivCuadritos {
+  display: flex;
   background: rgba(137, 226, 135, 0.83);
-  border: 2px solid #000000;
-  filter: blur(4px);
   border-radius: 40px;
+  width: 370px;
+  height: 410px;
+  margin: 10px;
+  margin-top: 10px;
+  top: 10%;
+  text-align: center;
 }
 
-.TiTalleres {
-  position: absolute;
-  width: 237px;
-  height: 39px;
-  left: 163px;
-  top: 300px;
+.DivTitulo {
+  width: 100%;
+  height: 25%;
+  top: 0%;
+}
+
+.Titulos {
   font-family: Nova Round;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
   line-height: 58px;
   color: #000000;
+  margin-top: 5px;
 }
 
-.listaTaller {
-  position: absolute;
-  width: 351px;
-  height: 230px;
-  left: 75px;
-  top: 404px;
+.DivListas {
+  width: 350px;
+  height: 85%;
+  top: 15%;
+}
+
+.Listas {
   font-family: PT Mono;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 25px;
+  line-height: 50px;
   color: #000000;
+  padding-left: 10px;
+  text-align: center;
+  list-style: none;
 }
 
-.Consulta {
-    position: absolute;
-    width: 401px;
-    height: 420px;
-    left: 550px;
-    top: 308px;
-    background: rgba(137, 226, 135, 0.83);
-    border: 2px solid #000000;
-    filter: blur(4px);
-    border-radius: 40px;
-  }
-  
-  .TiConsulta {
-    position: absolute;
-    width: 237px;
-    height: 39px;
-    left: 640px;
-    top: 300px;
-    font-family: Nova Round;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 58px;
-    color: #000000;
-  }
-  
-  .listaConsultas {
-    position: absolute;
-    width: 351px;
-    height: 230px;
-    left: 590px;
-    top: 404px;
-    font-family: PT Mono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 40px;
-    color: #000000;
-  }
+.PiePagina {
+  position: absolute;
+  width: 100%;
+  height: 130px;
+  top: 105%;
+  background: rgba(137, 226, 135, 0.83);
+  border: 2px solid #000000;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
-  .Reto {
-    position: absolute;
-    width: 401px;
-    height: 420px;
-    left: 1050px;
-    top: 308px;
-    background: rgba(137, 226, 135, 0.83);
-    border: 2px solid #000000;
-    filter: blur(4px);
-    border-radius: 40px;
-  }
-  
-  .TiReto {
-    position: absolute;
-    width: 237px;
-    height: 39px;
-    left: 1200px;
-    top: 300px;
-    font-family: Nova Round;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 58px;
-    color: #000000;
-  }
-  
-  .listaReto {
-    position: absolute;
-    width: 351px;
-    height: 230px;
-    left: 1100px;
-    top: 404px;
-    font-family: PT Mono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 40px;
-    color: #000000;
-  }
+.Creditos {
+  width: 880.35px;
+  height: 37px;
+  left: 10px;
+  top: 800px;
+  font-family: Nova Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .PiePagina{
-    position: absolute;
-    width: 1410px;
-    height: 130px;
-    left: 47px;
-    top: 778px;
-    background: rgba(137, 226, 135, 0.83);
-    border: 2px solid #000000;
-    filter: blur(4px);
-    border-radius: 40px;
-  }
+.git {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 20px;
+}
 
-  .Creditos{
-    position: absolute;
-    width: 880.35px;
-    height: 37px;
-    left: 10px;
-    top: 800px;
-    font-family: Nova Round;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 14px;
-    text-align: center;
-    color: #000000;
-  }
+.neocities {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 20px;
+}
 
-  .git{
-    position: absolute;
-    left: 1200px;
-    top: 800px;
-    border-radius: 20px;
-  }
+.iconoLink:hover{
+border-radius:100%;
+box-shadow: 0px 0px 15px 15px #0b0466;
+-webkit-box-shadow: 0px 0px 15px 15px #0b0466;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+transition: all 0.5s ease-in-out;
+}
 
-  .neocities{
-    position: absolute;
-    left: 1300px;
-    top: 800px;
-    border-radius: 20px;
-  }
-
-a:link, a:visited{
+a:link,
+a:visited {
   text-decoration: none;
   color: #000000;
+  
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
-  color:  green; 
+  color: green;
+  font-size: 27px ;
 }
