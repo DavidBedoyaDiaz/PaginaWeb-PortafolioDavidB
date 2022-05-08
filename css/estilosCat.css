@@ -5,7 +5,6 @@
     left: -1px;
   }
   
-  
   .encabezado {
     position: absolute;
     background-color: #ff0000;
@@ -13,6 +12,10 @@
     height: 20%;
     top: 0%;
     left: 0%;
+  }
+
+  .cabecero{
+    width: 100%;
   }
   
   .title {
@@ -233,4 +236,49 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+  }
+  
+
+  @media screen and (max-width: 700px) {
+    .cabecero{
+      width: 0%;
+      height: 0%;
+    }
+
+    .title{
+      font-size: 36px;
+      position: absolute;
+      width: 100%;
+      left: 0%;
+      color: #1e87af;
+      -webkit-text-stroke: 0px #000000;
+    }
+
+    .DivGrande{
+      top: 30%;
+      width: 98%;
+      left: 0%;
+    }
+
+    .DivAmarillo{
+      margin-left: 10%;
+    }
+
+    .comprar{
+      margin-left: 0px;
+      width: 98%;
+      margin-right: 0px;
+      justify-content: space-evenly;
+    }
+
+    .iconoCarrito{
+      width: 50px;
+      height: 50px;
+    }
+
+    .txtComprar{
+      font-size: 24px;
+    }
+
+    
   }
