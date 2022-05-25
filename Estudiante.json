@@ -1,0 +1,21 @@
+{
+  "estudiantes": [
+    {
+      "nombre": "David Bedoya Díaz",
+      "github": "https://github.com/DavidBedoyaDiaz",
+      "neocities": "https://davidbedoya.neocities.org",
+      "correo": "davidbediaz@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/david-bedoya-451313223/",
+      "actividad1": "https://davidbedoya.neocities.org/HojaDeVida.html",
+      "actividad2": "https://davidbedoya.neocities.org/FlashCards.html",
+      "actividad3": "https://davidbedoya.neocities.org/Catalogo.html",
+      "actividad4": "https://davidbedoya.neocities.org/EjerciciosJS.html",
+      "porcentaje": "100%",
+      "html": "100%",
+      "css": "100%",
+      "js": "100%",
+      "ui": "100%",
+      "ux": "100%"
+    }
+  ]
+}
