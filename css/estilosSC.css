@@ -34,7 +34,6 @@
   text-align: center;
   color: rgba(255, 245, 0, 0.9);
   mix-blend-mode: normal;
-
 }
 
 .icono {
@@ -58,12 +57,11 @@
   backdrop-filter: blur(4px);
 }
 
-
 .btn {
   padding: 0.9em 1.6em;
   border: none;
   outline: none;
-  color: #FFF;
+  color: #fff;
   font-family: inherit;
   font-weight: 500;
   font-size: 17px;
@@ -75,9 +73,9 @@
   left: 85%;
   top: 25%;
   width: 160px;
- }
- 
- .btn::after {
+}
+
+.btn::after {
   content: "";
   z-index: -1;
   position: absolute;
@@ -87,15 +85,21 @@
   left: 0;
   top: 0;
   border-radius: 10px;
- }
- /* glow */
- .btn::before {
+}
+/* glow */
+.btn::before {
   content: "";
   background: linear-gradient(
-     45deg,
-     #FF0000, #002BFF, #FF00C8, #002BFF,
-       #FF0000, #002BFF, #FF00C8, #002BFF
- );
+    45deg,
+    #ff0000,
+    #002bff,
+    #ff00c8,
+    #002bff,
+    #ff0000,
+    #002bff,
+    #ff00c8,
+    #002bff
+  );
   position: absolute;
   top: -2px;
   left: -2px;
@@ -105,44 +109,44 @@
   height: calc(100% + 4px);
   filter: blur(8px);
   animation: glowing 20s linear infinite;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
   opacity: 0;
- }
- 
- @keyframes glowing {
+}
+
+@keyframes glowing {
   0% {
-   background-position: 0 0;
+    background-position: 0 0;
   }
- 
+
   50% {
-   background-position: 400% 0;
+    background-position: 400% 0;
   }
- 
+
   100% {
-   background-position: 0 0;
+    background-position: 0 0;
   }
- }
- 
- /* hover */
- .btn:hover::before {
+}
+
+/* hover */
+.btn:hover::before {
   opacity: 1;
- }
- 
- .btn:active:after {
+}
+
+.btn:active:after {
   background: transparent;
- }
- 
- .btn:active {
+}
+
+.btn:active {
   color: #000;
   font-weight: bold;
- }
+}
 
- .btn2 {
+.btn2 {
   padding: 0.9em 1.6em;
   border: none;
   outline: none;
-  color: #FFF;
+  color: #fff;
   font-family: inherit;
   font-weight: 500;
   font-size: 17px;
@@ -155,9 +159,9 @@
   left: 49%;
   top: 95%;
   width: 200px;
- }
- 
- .btn2::after {
+}
+
+.btn2::after {
   content: "";
   z-index: -1;
   position: absolute;
@@ -167,15 +171,21 @@
   left: 0;
   top: 0;
   border-radius: 10px;
- }
- /* glow */
- .btn2::before {
+}
+/* glow */
+.btn2::before {
   content: "";
   background: linear-gradient(
-     45deg,
-     #FF0000, #002BFF, #FF00C8, #002BFF,
-       #FF0000, #002BFF, #FF00C8, #002BFF
- );
+    45deg,
+    #ff0000,
+    #002bff,
+    #ff00c8,
+    #002bff,
+    #ff0000,
+    #002bff,
+    #ff00c8,
+    #002bff
+  );
   position: absolute;
   top: -2px;
   left: -2px;
@@ -185,38 +195,38 @@
   height: calc(100% + 4px);
   filter: blur(8px);
   animation: glowing 20s linear infinite;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
   opacity: 0;
- }
- 
- @keyframes glowing {
+}
+
+@keyframes glowing {
   0% {
-   background-position: 0 0;
+    background-position: 0 0;
   }
- 
+
   50% {
-   background-position: 400% 0;
+    background-position: 400% 0;
   }
- 
+
   100% {
-   background-position: 0 0;
+    background-position: 0 0;
   }
- }
- 
- /* hover */
- .btn2:hover::before {
+}
+
+/* hover */
+.btn2:hover::before {
   opacity: 1;
- }
- 
- .btn2:active:after {
+}
+
+.btn2:active:after {
   background: transparent;
- }
- 
- .btn2:active {
+}
+
+.btn2:active {
   color: #000;
   font-weight: bold;
- }
+}
 
 a {
   font-family: "Inter";
@@ -244,7 +254,6 @@ a:hover {
   left: 600px;
   top: 60%;
 }
-
 
 .LogoReg {
   position: absolute;
@@ -394,4 +403,85 @@ a:hover {
   mix-blend-mode: normal;
   margin: 0px;
   text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .fondo {
+    background-image: none;
+  }
+
+  .lema {
+    left: 15%;
+    font-size: 60px;
+    top: 40%;
+    line-height: 58px;
+  }
+
+  .PP {
+    width: 0px;
+  }
+
+  .btn {
+    position: absolute;
+    left: 65%;
+    top: 110%;
+  }
+
+  .Snack {
+    top: 40%;
+    width: 580px;
+    left: 15%;
+    font-size: 25px;
+    width: 350px;
+  }
+
+  .icono {
+    width: 80px;
+    height: 80px;
+    left: 80%;
+  }
+
+  .Logo {
+    top: 95%;
+    left: 50%;
+  }
+
+  .btn2 {
+    top: 130%;
+  }
+
+  .Contenedor1 {
+    left: 35%;
+    top: 60%;
+  }
+
+  .LogoReg {
+    top: 30%;
+    left: 65%;
+  }
+
+  .imgHeader {
+    width: 0px;
+    height: 0px;
+  }
+
+  .footer {
+    top: 260%;
+    left: 0%;
+  }
+
+  #snack2 {
+    font-size: 25px;
+    width: 350px;
+    left: 5%;
+  }
+
+  .icono2{
+    position: absolute;
+    left: 45%;
+  }
+
+  .DivAmarillo{
+    margin-left: 10%;
+  }
 }
